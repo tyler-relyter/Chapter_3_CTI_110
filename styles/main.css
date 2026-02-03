@@ -1,0 +1,52 @@
+/* Tyler Bullard 2/3/2026  */
+
+html, body {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+nav ul {
+    display: block;
+    float:none;
+    background-color: beige;
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+
+nav ul li:hover {
+    background-color: aqua;
+}
+
+section {
+    justify-items: center;
+}
+
+table {
+    border-radius: 1px;
+    border-style: solid;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.bordered-image {
+    border: 5px solid black;
+    border-radius: 8px;
+
+}
+
+div#image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
